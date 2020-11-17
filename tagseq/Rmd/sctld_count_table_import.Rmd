@@ -99,7 +99,7 @@ write.csv(txi.salmon.count_mcav$abundance , file = "~/Desktop/SCTLD_tagseq/count
 write.csv(txi.salmon.count_mcav$length, file = "~/Desktop/SCTLD_tagseq/count_folder/mcav_length.csv")
 ```
 
-
+#Don't need to Run
 ```{r writing csv for all info ofav, include = F}
 write.csv(txi.salmon.count_ofav$counts, file = "~/Desktop/SCTLD_tagseq/count_folder/ofav_counts.csv")
 write.csv(txi.salmon.count_ofav$abundance , file = "~/Desktop/SCTLD_tagseq/count_folder/ofav_abundance.csv")
